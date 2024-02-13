@@ -12,6 +12,14 @@
  */
 
 // Your code goes here...
+const getDiffTwentySeven = (num) => {
+  let lildif = 27 - num;
+  let bigDif = num - 27;
+  if (num <= 27) {
+    return lildif;
+  }
+  return bigDif * 2;
+}
 
 
 
@@ -24,7 +32,13 @@
  */
 
 // Your code goes here
-
+const sumOfTwoIntegers = (num1, num2) => {
+  let sum = num1 + num2;
+  if (num1 === num2) {
+    return sum * 3;
+  }
+  return sum;
+}
 
 
 
@@ -38,7 +52,13 @@
  */
 
 // Your code goes here...
-
+const isOneOfThemOrTheirSumIsFourty = (num1, num2) => {
+  let sum = num1 + num2;
+  if (num1 === 40 || num2 === 40|| sum === 40) {
+    return true;
+  }
+  return false
+}
 
 
 
